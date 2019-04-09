@@ -1,0 +1,95 @@
+/*
+
+================================================================================
+
+Press preview files template layout styles.
+
+Author:  Joshua Shindler
+
+Created: 7th May 2008 
+
+Updated: ???? (??) ???
+
+[keep last 5 updated]
+
+================================================================================
+
+*/
+
+
+/*Landing Structure*/
+#ufo-wrapper {background:#EEEEEE!important; width:100%; float:left; }
+#landing-primary-content{width:639px; float:left; background-color:#fff; border-right:#BFBFBF dotted 1px;}
+#landing-secondary-content {width:320px; float:left; background-color:#EEEEEE; }
+
+
+/*Landing Items*/
+
+#landing-primary-content h2 {background:none; font:1.5em/150% Verdana, Arial, Helvetica, sans-serif, normal; padding:12px 0 6px 0;  margin:12px 0 0 20px; float:none;  }
+#landing-primary-content img, #landing-secondary-content .holder ul li img, #landing-secondary-content p img{float:left; margin:0 10px 0 0; border:#8F8B8B solid 1px;}
+#landing-primary-content p{padding:12px 20px 0 20px;}
+#landing-primary-content h2 a{color:#000000; text-decoration:none;}
+#landing-primary-content h2 a:hover{ text-decoration:underline;}
+#ufo-wrapper #landing-primary-content .full-content-width {float: left; padding:0; margin:0}
+
+#ufo-wrapper #landing-intro>ul{padding: 0 0 0 20px; margin: 0 0 16px 20px;}
+#ufo-wrapper #landing-intro>ul>li{list-style:disc outside none!important; padding: 0px 0 0px 15px; margin: 0 0 0 15px; }
+
+
+#ufo-wrapper #landing-primary-content>ul{padding: 0 0 0 0; margin: 0 0 0 20px; float: left; }
+#ufo-wrapper #landing-primary-content>ul>li{list-style:disc outside none!important; padding: 6px 0 6px 15px; margin: 0 0 0 15px; float:left; width:275px;  }
+#ufo-wrapper #landing-primary-content #landing-intro ul ul li {padding: 6px 0 6px 15px; margin: 0 0 0 -5px;}
+
+
+#ufo-wrapper #landing-primary-content h3{padding: 12px 0 12px 0; margin: 12px 20px 0 20px; width: 599px; border-top:#BFBFBF dotted 1px;}
+#ufo-wrapper #landing-primary-content .clear {clear:both;}
+
+/*Landing Lists*/
+#landing-secondary-content .holder {background:#FFFFFF; margin:8px; padding:0 0 12px 0; border:dotted #BFBFBF 1px; border-top:none;}
+#landing-secondary-content .holder-opening {background:#FFFFFF; margin:8px 0 8px 0; padding:0 0 12px 0; border:dotted #BFBFBF 1px; border-top:none;}
+#landing-secondary-content .holder p.with-image {height: 127px;}
+#landing-secondary-content .holder ul li a img{padding-right: 10px;}
+#landing-secondary-content h2{background-color:#CDCDCD; padding: 4px 0 4px 0; margin:0 0 0 0; font-weight:700;}
+#landing-secondary-content .day {float: left; width: 40%!important;}
+#landing-secondary-content h2 a, #landing-secondary-content h2 span.header-no-link{color:#000000; text-decoration:none; margin-left: 10px!important;}
+#landing-secondary-content img{border:none;}
+#landing-secondary-content ul{padding:0 10px 0 10px;}
+#landing-secondary-content li{padding:8px 0 8px 0;border-bottom:#BFBFBF 1px dotted; }
+#landing-secondary-content ul.stripes{padding:10px 0 10px 0; background-color:#eee;}
+#landing-secondary-content ul.stripes li{padding:4px 0 4px 10px; border-bottom:none!important;}
+#landing-secondary-content ul.stripes li.white{padding:4px 0 4px 10px; border-bottom:none!important; background-color:#fff; }
+#landing-secondary-content li a,#landing-secondary-content h2 a{color:#000000; text-decoration:none;}
+#landing-secondary-content li a:hover{text-decoration:underline;}
+#landing-secondary-content li a.heading{font-weight:bold;}
+#landing-secondary-content #features li{margin:12px 0 12px 0;}
+#landing-secondary-content .break{border-bottom:#BFBFBF 1px dotted; padding:0 0 0 0 ; margin:0 10px 0 10px;}
+#landing-secondary-content p{padding:10px 10px 0 10px;}
+strong{font-weight:bold;}
+#landing-secondary-content .holder .podcast{background:url(/images/global/landing-podcast-icon.gif) no-repeat left ; padding:12px 0 12px 50px}
+#landing-secondary-content .holder .podcast .podcast-listen {color:#AE2481; font-weight:bold;}
+#ufo-wrapper #landing-secondary-content .holder .header-no-link{color:#000000; text-decoration:none; padding-left: 10px!important;}
+#ufo-wrapper #landing-secondary-content .holder .book-title { display:block; padding:5px 0 0 10px; color:#000000; font-weight:800;}
+#ufo-wrapper #landing-secondary-content #ufo-bookshop a { text-decoration:none!important;}
+#ufo-wrapper #landing-secondary-content #ufo-bookshop a:hover { text-decoration:underline!important;}
+#ufo-wrapper #landing-secondary-content .holder img {padding:0 0 0 0; float:left; /*padding:6px 10px 6px 10px;*/ }
+#ufo-wrapper #landing-secondary-content #ufo-bookshop {height:320px;}
+#ufo-wrapper #landing-secondary-content #ufo-bookshop .book-price {	COLOR: #cc0000;	LINE-HEIGHT: 300%;	FONT-STYLE: italic; padding:5px 0 0 10px;}
+#ufo-wrapper #landing-secondary-content #ufo-bookshop .book-desc { display:block; COLOR: #000; padding:5px 5px 0 10px;}
+
+#sub-landing-top-section img{float:left; margin:0 20px 12px 0;border:#8F8B8B 1px solid;}
+#ufo-wrapper #ufo-header-wrapper {height: 100px; background-color:#00529B; border-bottom: 4px solid #01325E; }
+#ufo-wrapper #ufo-header-wrapper h1.ufo-banner {font-size: 2.9em; color: #fff; padding: 10px 0 0 20px;}
+#ufo-wrapper #ufo-header-wrapper h1.ufo-banner-sub {font-size: 2em; color: #fff; padding: 20px 0 0 20px;}
+#ufo-wrapper #ufo-header-wrapper h1.pas198-banner {font-size: 2.9em; color: #fff; padding: 20px 0 0 20px;}
+#ufo-wrapper #ufo-header-wrapper .sub-h1 {font-size: 15pt; color: #fff; padding: 20px 0px 0px 0px;}
+#quote{ text-align:center; font: bold 125% "Courier New", Courier, monospace; color: #FFF; background-color:#00529B; width: 100%; margin:-2px 0 0 0!important; clear:both; padding:6px 0 10px 0; }
+.quote-ref {text-align: center; font-weight:bold; }
+q {font-style:italic}
+
+/*video panel*/
+
+#landing-secondary-content .holder #player {margin:12px 10px 0 10px;}
+.file-size{font-size:0.85em; color:#666;}
+
+
+
