@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+================================================================================
+IE 6 only styles
+Author:       Josh Shindler , Craig Anderson
+Created:      10th November 2008 
+================================================================================
+*/
+#branding img {float:left;}
+#branding h1 {position: static; margin-bottom:none;}
+.level0 #wrapper #branding ul li ul {*position: static;margin:-140px 0 20px 10px; }
+#hdr-searchform-holder #search_text {margin:-1px 0 0 0 ;}
+#content-column-features li {height:105px;}
+#content-column-research #military {height:150px; }
+#content-column-research #family {height:150px;}
+/*Arrows*/
+.red-arrow-large {background:url(/images/arrows/arrow-red-large.gif) right no-repeat;  display: inline; padding:7px 6px 9px 6px; height:0px; width:0px;}
+.red-arrow {background:url(/images/arrows/arrow-red.gif) right no-repeat;  display: inline; padding:7px 6px 8px 6px; height:0px; width:0px;}
+.white-arrow {background: url(/images/arrows/arrow-white.gif) right no-repeat; display: inline; padding:9px 6px 9px 6px; height:0px; width:0px;}
+.black-arrow {background: url(/images/arrows/arrow-black.gif) right no-repeat; display: inline; padding:7px 6px 8px 6px; height:0px; width:0px;}
+.pink-arrow {background: url(/images/arrows/arrow-pink.gif) right no-repeat; display: inline; padding:7px 6px 8px 6px; height:0px; width:0px;}
+.green-arrow {background: url(/images/arrows/arrow-green.gif) right no-repeat; display: inline; padding:7px 6px 8px 6px; height:0px; width:0px;}
+.purple-arrow {background: url(/images/arrows/arrow-purple.gif) right no-repeat;display: inline; padding:7px 6px 8px 6px; height:0px; width:0px;}
+.podcast-category-display{padding: 0 0 12px 0;margin:12px 0 0 10px;float:left;border-bottom:#BFBFBF 1px dotted;}
+#secondary-content .holder #rss {float:right; padding:4px 10px 4px 0;  text-align:right; margin:-27px 0 0 0; width:150px; }
+
+
+
+
+#wrapper #main-content #intro ul.keystage {width:586px!important; float:left; padding:12px 0 0 0; font-size:0.90em;}
+#wrapper #main-content #left-nav .selected-page {margin:0 -4px 0 0 ; }
+#wrapper #main-content #left-nav .selected-page ul{margin:0 0 0 -3px; }
+#wrapper #main-content #left-nav .selected .selected-page {margin:0 0 0 4px; padding:0 0 0 8px; width:184px;}
+#wrapper #main-content #left-nav .selected .selected-page a {padding:6px 0 6px 10px;}
+#wrapper #main-content #left-nav .selected .selected {margin:0 2px 0 4px}
+#wrapper #main-content #left-nav .selected .selected a {padding-left:12px;}
+#wrapper #main-content #left-nav .selected .selected li a{padding-left:10px; }
+#wrapper #main-content #left-nav .selected .selected .selected-page {margin:0 0 0 5px; padding:0 0 0 3px;}
+#wrapper #main-content #left-nav .selected .selected .selected-page a:hover {color:#fff;}
+#wrapper #main-content #left-nav .selected .selected-page ul { padding:12px 0 0 0; }
+#wrapper #main-content #left-nav .selected .selected-page li {padding:0 0 0 0; margin:0 0 0 5px;}
+#wrapper #main-content #left-nav .selected .selected ul li a:hover{color:#000; }
+/*Education*/
+
+#education-wrapper #wrapper #primary-content .holder .lesson-tasks li {float:none!important;}
+#education-wrapper #wrapper #primary-content .quote-box {margin: 12px 10px 12px 10px; padding:12px 10px 12px 10px; width:559px; }
+#education-wrapper #wrapper #primary-content .holder #workshop-sessions {padding:0 0 0 -12px; margin:0 0 12px -18px; width:617px}
+#education-wrapper #wrapper #primary-content .holder {margin:0 10px 0 10px;}
+#education-wrapper #wrapper #primary-content .holder #workshop-sessions li{  padding:0 18px 0 18px;*/}
+
+
+/*Webarchive*/
+.level3 #wrapper #a-z-menu li a:hover {color:#000; text-decoration:underline;}
+.level3 #wrapper #left-nav-content #jump-menu p {width:450px!important; padding:0!important; margin:0; float:right;}
+.level3 #wrapper #left-nav-content #a-z-menu {width:225px;}
+.level3 #wrapper #left-nav-content #a-z-menu li {height:25px; padding:2px 0 0 2px;}
+.level3 #wrapper #left-nav-content #a-z-menu li:hover {color:#8A0752; text-decoration:underline!important;}
+.webarchive #main-content #primary-content {width:600px;}
+.webarchive #main-content #primary-content .navitem{width:580px;}
+.webarchive #main-content #secondary-content {width:320px;}
+
