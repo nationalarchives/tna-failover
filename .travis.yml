@@ -5,6 +5,7 @@ branches:
 
 before_deploy: 
   - pip install --user awscli
+  - ./config/set-aws.sh
 
 deploy:
     provider: s3
