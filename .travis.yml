@@ -5,7 +5,7 @@ branches:
 
 before_deploy: 
   - pip install --user awscli
-  - ./file://config/set-aws.sh
+  - ./nationalarchives/tna-failover/config/set-aws.sh
 
 deploy:
     provider: s3
