@@ -1,0 +1,20 @@
+{
+  "ErrorDocument": {
+    "Key": "error.html"
+  },
+  "IndexDocument": {
+    "Suffix": "index.html"
+  },
+  "RoutingRules": [
+    {
+      "Condition": {
+        "HttpErrorCodeReturnedEquals": "404"
+      },
+      "Redirect": {
+        "HostName": "test.nationalarchives.gov.uk",
+        "Protocol": "https",
+        "ReplaceKeyPrefixWith": "#!/"
+      }
+    }
+  ]
+}
