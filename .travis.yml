@@ -22,5 +22,5 @@ notifications:
         on_failure: always
         on_success: always
 after_deploy:
-   - aws s3api put-bucket-website --bucket www.fullofwishes.co.uk --website-configuration file://config/routing-rules.json
+   - aws s3api put-bucket-website --bucket www.nationalarchives.gov.uk --website-configuration file://config/routing-rules.json
    - aws cloudfront create-invalidation --distribution-id $CDN_DISTRIBUTION_ID --paths "/*"
